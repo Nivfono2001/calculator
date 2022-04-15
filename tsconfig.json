@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "noImplicitReturns": false,
+    "noImplicitThis": false,
+    "strictPropertyInitialization": false,
+    "sourceMap": true,
+    "strict": true,
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "target": "es2019",
+    "lib": ["es2020"],
+    "baseUrl": ".",
+    "typeRoots": ["node_modules/@types", "./@types"]
+  },
+  "include": ["."]
+}
